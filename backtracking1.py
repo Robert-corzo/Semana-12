@@ -31,7 +31,6 @@ def laberinto(lab, res, f, c, fin_f, fin_c):
     
     return False
 
-# Matriz basada en tu imagen
 lab = [
     [1, 1, 1, 1, 0, 1, 1, 1, 1],
     [1, 0, 0, 1, 0, 1, 0, 0, 0],
