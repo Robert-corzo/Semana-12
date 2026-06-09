@@ -18,7 +18,7 @@ def laberinto(lab, res, f, c, fin_f, fin_c):
 
     if validar(lab, f, c, res):
         res[f][c] = 1
-        imprimir(res) # Muestra el avance
+        imprimir(res) 
         
         movimientos = [(1, 0), (0, 1), (-1, 0), (0, -1)]
         for df, dc in movimientos:
